@@ -1,0 +1,21 @@
+artifact_path: mlflow-artifacts:/2/models/m-7b96ae3276da4fc9ad129d550c2de0a3/artifacts
+flavors:
+  pytorch:
+    code: null
+    model_data: data
+    pytorch_version: 2.15.0+cu132
+is_signature_from_type_hint: false
+mlflow_version: 3.18.0
+model_id: m-7b96ae3276da4fc9ad129d550c2de0a3
+model_size_bytes: 9721097
+model_uuid: m-7b96ae3276da4fc9ad129d550c2de0a3
+prompts: null
+run_id: ddf8c237db9241a28cc768a6e359ea94
+signature:
+  inputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1, 3,
+    320, 320]}}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "float32", "shape": [-1,
+    10]}}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2026-11-24 17:59:32.419386'
