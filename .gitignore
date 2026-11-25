@@ -1,0 +1,10 @@
+# Python files
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+*.env
+
+# Datasets
+CV/*/src/dataset/
+DNN/*/src/dataset/
